@@ -1,4 +1,6 @@
 $main_bg_color: #f6f6f6;
+$primary-color: #ecaaaa;
+// #ffa500
 
 
 @mixin flex-center {
@@ -8,13 +10,15 @@ $main_bg_color: #f6f6f6;
 }
 
 body{
-    background-color: $main_bg_color;
+    // background-color: $main_bg_color;
 
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     // display: flex;
 
     font-family: 'Roboto', sans-serif;
+    cursor: default;
 
 }
 
@@ -28,6 +32,19 @@ body{
     align-items: center;
     
     // background-color: blue;
+
+    div{
+        cursor: pointer;
+        
+    }
+
+
+    
+}
+
+.nav-item:hover{
+    color: $primary-color;
+    transition: .3s;
 }
 
 .diff-btn{
@@ -51,6 +68,17 @@ body{
     border-radius: 10rem;
 }
 
+.login-btn:hover{
+    background-color: $primary-color;
+    border: .15rem solid $primary-color;
+    transition: .25s;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 .intro-section{
     height: 100vh;
     width: 100%;
@@ -60,11 +88,12 @@ body{
 }
 
 .intro-text{
-    height: 90%;
+    min-height: 90%;
     width: 55%;
 
     @include flex-center;
     flex-direction: column;
+    
 
     // background-color: green;
 
@@ -88,12 +117,51 @@ body{
 
 .text-inner{
     width: 65%;
+    min-height: 60%;
     // background-color: orange;
 }
+
+.start-btn{
+    // background-color: gold;
+    background-color: $primary-color;
+    border-radius: 10rem;
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+
+    
+    
+}
+
+.start-btn:hover{
+    background-color: black;
+    transition: .5s;
+}
+
+
 
 
 .intro-bg{
     height: 90%;
     width: 45%;
-    background-color: orange;
+
+    @include flex-center;
+
+    // background-color: orange;
 }
+
+.bg-inner{
+    height: 80%;
+    width: 100%;
+
+    margin-bottom: 3rem;
+    background-image: url("../../media/5e2736c1fdf8684a69e11a11c0da2f9b.gif");
+    transform: rotate(270deg);
+
+    // background-color: brown;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
