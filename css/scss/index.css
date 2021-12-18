@@ -4,6 +4,7 @@ body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   cursor: default;
+  color: #1b1b1b;
 }
 
 .nav-bar {
@@ -100,6 +101,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 1.5rem;
+  color: #474747;
 }
 
 .text-inner {
@@ -228,14 +230,23 @@ body {
 }
 
 .card-logo {
-  background-color: blue;
-  height: 90%;
+  height: 100%;
   width: 15%;
 }
 
+.card-logo i {
+  font-size: 2.5rem;
+  background-color: #ca8f8f;
+  border-radius: .8rem 0 1rem;
+  padding: .5rem;
+}
+
 .card-text {
-  background-color: burlywood;
   height: 90%;
-  width: 80%;
+  width: 85%;
+}
+
+.card-text p {
+  color: #474747;
 }
 /*# sourceMappingURL=index.css.map */
