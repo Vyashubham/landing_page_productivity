@@ -23,3 +23,8 @@ Req.
 3. extensive use of js 
 
 Colors: 
+
+
+
+Think:
+add shadow to cards to make them look something like neomorphic 
