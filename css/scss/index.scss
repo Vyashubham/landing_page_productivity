@@ -335,3 +335,82 @@ a{
     width: 60%;
 
 }
+
+
+.useCases-card{
+    // background-color: darkcyan;
+    background-color: #F8F8F8;
+
+    @include flex-center;
+    flex-direction: column;
+
+    
+    border-radius: 1rem;
+
+
+    height: 100%;
+    width: 17vw;
+}
+
+.useCases-card:hover{
+    box-shadow:
+    1.5px 3.5px 3.4px rgba(0, 0, 0, 0.017),
+    3.7px 8.4px 8.1px rgba(0, 0, 0, 0.024),
+    7px 15.8px 15.3px rgba(0, 0, 0, 0.03),
+    12.5px 28.1px 27.3px rgba(0, 0, 0, 0.036),
+    23.4px 52.6px 51px rgba(0, 0, 0, 0.043),
+    56px 126px 122px rgba(0, 0, 0, 0.06);
+
+    transition: 1s;
+}
+
+.useCases-logo{
+    // background-color: crimson;
+
+    height: 50%;
+    width: 100%;
+}
+
+.useCases-text{
+    // background-color: rgb(129, 65, 78);
+    background-color: #F8F8F8;
+    border-radius: 0 0 1rem 1rem;
+
+    height: 40%;
+    width: 100%;
+
+    p{
+        text-align: left;
+        padding: .5rem;
+    }
+
+}
+
+.useCases-card-heading{
+    @include flex-center;
+    @include blank-slate;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+
+
+    // background-color: #474747;
+}
+
+.bird1{
+    background-image: url("../../media/bird3.webp");
+    background-size: contain;
+    background-position: center;
+}
+
+.bird2{
+    background-image: url("../../media/bird.webp");
+    background-size: contain;
+    background-position: center;
+}
+
+.bird3{
+    background-image: url("../../media/bird1.webp");
+    background-size: contain;
+    background-position: center;
+}
