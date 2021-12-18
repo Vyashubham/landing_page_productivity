@@ -263,4 +263,73 @@ a {
   padding: 0 .5rem;
   line-height: 1.8rem;
 }
+
+.useCases-section {
+  background-color: #474747;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40vh;
+  width: 100%;
+}
+
+.useCases-heading {
+  background-color: chocolate;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  height: 90%;
+  width: 30%;
+}
+
+.useCases-heading h1 {
+  font-size: 6rem;
+  padding: 0;
+  margin: 0;
+}
+
+.useCases-heading p {
+  font-size: 1.1rem;
+  line-height: 1.3em;
+}
+
+.useCases-cards-wrapper {
+  background-color: #758299;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 90%;
+  width: 60%;
+}
 /*# sourceMappingURL=index.css.map */
