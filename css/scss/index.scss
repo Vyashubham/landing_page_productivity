@@ -212,6 +212,7 @@ body{
 
     height: 20vh;
     width: 22vw;
+    @include flex-center;
 
     padding: 0;
     margin: 0;
@@ -221,3 +222,32 @@ body{
     
 }
 
+.feature-card:hover{
+    box-shadow:
+    1.5px 3.5px 3.4px rgba(0, 0, 0, 0.017),
+    3.7px 8.4px 8.1px rgba(0, 0, 0, 0.024),
+    7px 15.8px 15.3px rgba(0, 0, 0, 0.03),
+    12.5px 28.1px 27.3px rgba(0, 0, 0, 0.036),
+    23.4px 52.6px 51px rgba(0, 0, 0, 0.043),
+    56px 126px 122px rgba(0, 0, 0, 0.06);
+    
+    transition: 1s;
+
+    // cursor: pointer;
+}
+
+.card-logo{
+    background-color: blue;
+
+    height: 90%;
+    width: 15%;
+
+
+}
+
+.card-text{
+    background-color: burlywood;
+
+    height: 90%;
+    width: 80%;
+}
