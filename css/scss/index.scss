@@ -2,7 +2,7 @@ $main_bg_color: #f6f6f6;
 $primary-color: #ecaaaa;
 $secondary-color: #fff5f5;
 $primary-text-color: #1b1b1b;
-$secondary-text-color: #474747;
+$secondary-text-color: #504f4f;
 
 // #ffa500
 
@@ -419,53 +419,235 @@ a{
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 .pricing-section{
-    background-color: chartreuse;
+    // background-color: chartreuse;
 
     @include flex-center;
-    justify-content: space-evenly;
+    flex-direction: column;
 
     height: 100vh;
     width: 100%;
     
 }
+.pricing-section-title{
+    height: 10%;
+    width: 100%;
 
+    @include flex-center;
+
+    // background-color: yellow;
+
+    font-size: 2.5rem;
+}
+
+.pricing-section-wrapper{
+
+    height: 80%;
+    width: 100%;
+
+    // background-color: red;
+
+    @include flex-center;
+    justify-content: space-evenly;
+
+}
+.pricing-line{
+
+    background-color: #1b1b1b;
+
+    height: 15rem;
+    width: .1rem;
+
+}
 .pricing-tab{
-    background-color: darkblue;
+    // background-color: darkblue;
 
-    height: 85%;
+    // background-color: $secondary-color;
+    // background-color: #F8F8F8;
+    border: .2rem solid $secondary-text-color; 
+
+    height: 90%;
     width: 25vw;
+
+    border-radius: .5rem;
+    
+
+    // box-shadow:
+    // 1.5px 3.5px 2.4px rgba(202, 124, 124, 0.017),
+    // 3.7px 8.4px 6.1px rgba(228, 161, 161, 0.024),
+    // 7px 15.8px 10.3px rgba(0, 0, 0, 0.03),
+    // 12.5px 28.1px 20.3px rgba(235, 181, 181, 0.036),
+    // 23.4px 52.6px 51px rgba(0, 0, 0, 0.043),
+    // 56px 126px 122px rgba(235, 164, 164, 0.06);
+
+    // box-shadow:
+    // 1.5px 3.5px 3.4px rgba(0, 0, 0, 0.017),
+    // 3.7px 8.4px 8.1px rgba(0, 0, 0, 0.024),
+    // 7px 15.8px 15.3px rgba(0, 0, 0, 0.03),
+    // 12.5px 28.1px 27.3px rgba(0, 0, 0, 0.036),
+    // 23.4px 52.6px 51px rgba(0, 0, 0, 0.043),
+    // 56px 126px 122px rgba(0, 0, 0, 0.06);
+
+}
+
+.pricing-tab-focus{
+    
+
+    box-shadow:
+    1.5px 3.5px 3.4px rgba(0, 0, 0, 0.017),
+    3.7px 8.4px 8.1px rgba(0, 0, 0, 0.024),
+    7px 15.8px 15.3px rgba(0, 0, 0, 0.03),
+    12.5px 28.1px 27.3px rgba(0, 0, 0, 0.036),
+    23.4px 52.6px 51px rgba(0, 0, 0, 0.043),
+    56px 126px 122px rgba(0, 0, 0, 0.06);
+
+}
+
+.pricing-tab:hover{
+
+    box-shadow:
+    1.5px 3.5px 3.4px rgba(0, 0, 0, 0.017),
+    3.7px 8.4px 8.1px rgba(0, 0, 0, 0.024),
+    7px 15.8px 15.3px rgba(0, 0, 0, 0.03),
+    12.5px 28.1px 27.3px rgba(0, 0, 0, 0.036),
+    23.4px 52.6px 51px rgba(0, 0, 0, 0.043),
+    56px 126px 122px rgba(0, 0, 0, 0.06);
+
+    transition: .5s;
+
+}
+
+.pricing-tab-pop{
+    margin: 0 auto;
+    position: absolute;
+
+    background-color: #FEFAF3;
+    color: #DB962F;
+
+    border-radius: 5rem;    
+
+    padding: 1rem 10.5rem;
+    font-size: 1.2rem;
 
 }
 
 .price-slab{
-    background-color: yellow;
+    // background-color: yellow;
 
-    height: 25%;
+    height: 20%;
     width: 100%;
+    padding: 1rem ;
+
+    
+
+    h1{
+        font-size: 3.5rem;
+        font-weight: 400;
+
+        @include blank-slate;
+
+        padding: 3rem 0 0 0 ;
+    }
+
+    h3{
+        color: $secondary-text-color;
+    }
 
 }
 
 .price-btn{
-    background-color: rgb(74, 75, 19);
+    // background-color: rgb(74, 75, 19);
+
+    @include flex-center;
 
     height: 15%;
     width: 100%;
 
+    a{
+        // background-color: rgb(255, 254, 254);
+        background-color: #ff6961;
+        color: white;
+
+        position: absolute;
+        padding: 1rem 9rem;
+        border-radius: 4.5rem;
+    }
+
 }
 
-.price{
-    background-color: orange;
+.price-wrapper{
+    // background-color: orange;
+    
 
-    height: 10%;
+    // @include flex-center;
+    flex-direction: column;
+
+    height: 15%;
     width: 100%;
 
+    padding: 1rem;
+    
 }
 
+.price-title{
+    @include flex-center;
+    justify-content: start;
+    // background-color: green;
+
+    h2{
+
+        font-size: 3rem;
+
+        // background-color: #2b2b2b;
+
+        
+        @include blank-slate;
+
+    }
+
+}
+
+.price-title-text{
+    // background-color: #474747;
+    
+    color: #a0a0a0;
+
+}
+
+.price-content{
+    // background-color: gray;
+
+    @include blank-slate;
+
+    h5{
+        @include blank-slate;
+        font-size: 1rem;
+
+        padding-top: .5rem;
+        color: $secondary-text-color;
+    }
+}
 .pricing-text{
-    background-color: rgb(95, 72, 14);
+    // background-color: rgb(95, 72, 14);
 
-    height: 45%;
+    
+    @include flex-center;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+
+    height: 35%;
     width: 100%;
+
+    li{
+        padding: .5rem 1rem;
+        font-size: 1.3rem;
+
+        list-style-image: url("../../media/icons8-double-tick-24.png");
+        background-position: 0 0;
+        background-size: .3rem .3rem;
+        background-repeat: no-repeat;
+    }
+
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
