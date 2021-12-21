@@ -28,3 +28,6 @@ Colors:
 
 Think:
 add shadow to cards to make them look something like neomorphic 
+
+TO DO: 
+1. fav icon add
