@@ -445,6 +445,8 @@ a{
 
     height: 100vh;
     width: 100%;
+
+    margin-bottom: 10rem;
     
 }
 .pricing-section-title{
@@ -689,17 +691,17 @@ footer{
     // background-color: rgb(135, 204, 250);
     // background-color: $foote-bg;
 
-    height: 30vh;
+    height: 40vh;
     width: 100%;
 
     @include flex-center;
-    justify-content: space-evenly;
+    // justify-content: space-evenly;
     flex-direction: column;
 
 }
 
 .footer-logo-section{
-    height: 70%;
+    height: 40%;
     width: 35%;
     // background-color: yellow;
 
@@ -733,7 +735,7 @@ footer{
 }
 
 .footer-section-links{
-    height: 40%;
+    height: 20%;
     min-width: 15%;
     
     // background-color: olive;

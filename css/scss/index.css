@@ -434,6 +434,7 @@ a {
           flex-direction: column;
   height: 100vh;
   width: 100%;
+  margin-bottom: 10rem;
 }
 
 .pricing-section-title {
@@ -632,7 +633,7 @@ a {
 }
 
 footer {
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -643,9 +644,6 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -653,7 +651,7 @@ footer {
 }
 
 .footer-logo-section {
-  height: 70%;
+  height: 40%;
   width: 35%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -697,7 +695,7 @@ footer {
 }
 
 .footer-section-links {
-  height: 40%;
+  height: 20%;
   min-width: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
