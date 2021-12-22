@@ -19,6 +19,15 @@ $foote-bg: #FAFAFB;
     margin: 0;
 }
 
+@mixin logo{
+    background-image: url("../../media/logo.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    font-family: 'Oooh Baby', cursive;
+}
+
 body, html{
     // background-color: $main_bg_color;
 
@@ -69,12 +78,21 @@ a{
     align-items: center;
 
     padding: 0 6rem;
+    
     // background-color: rebeccapurple;
+
+    p{
+        font-family: 'Oooh Baby', cursive;
+        font-size: 2rem;
+    }
 }
 
 .nav-logo{
     width: 90px;
     height: 80px;
+
+    @include logo;
+    
 }
 
 .login-btn{
@@ -692,9 +710,12 @@ footer{
     height: 70%;
     width: 50%;
 
-    background-image: url("https://cdn.dribbble.com/users/1672258/screenshots/15453159/media/52472b1d01004d02ea2b9ca1923490c7.gif");
-    background-position: center;
-    background-size: contain;
+    // background-image: url("https://cdn.dribbble.com/users/1672258/screenshots/15453159/media/52472b1d01004d02ea2b9ca1923490c7.gif");
+    // background-position: center;
+    // background-size: contain;
+    // background-repeat: no-repeat;
+
+    @include logo;
 
 }
 
@@ -707,11 +728,12 @@ footer{
     font-size: 2rem;
 
     @include flex-center;
+    font-family: 'Oooh Baby', cursive;
 }
 
 .footer-section-links{
     height: 40%;
-    width: 15%;
+    min-width: 15%;
     
     background-color: olive;
     @include flex-center;
@@ -719,9 +741,10 @@ footer{
     // flex-direction: column;
 }
 
-.footer-links-heading{
+.footer-links{
+
     background-color: #504f4f;
-    font-size: 2rem;
+    // font-size: 2rem;
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
