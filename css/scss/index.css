@@ -1,8 +1,9 @@
-body, html {
+body,
+html {
   background-color: #ffffff;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: default;
   color: #1b1b1b;
   scroll-behavior: smooth;
@@ -73,8 +74,8 @@ a {
 
 .nav-item:hover {
   color: #ecaaaa;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .diff-btn {
@@ -91,7 +92,7 @@ a {
 }
 
 .diff-btn p {
-  font-family: 'Oooh Baby', cursive;
+  font-family: "Oooh Baby", cursive;
   font-size: 2rem;
 }
 
@@ -102,22 +103,22 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  font-family: 'Oooh Baby', cursive;
+  font-family: "Oooh Baby", cursive;
 }
 
 .login-btn {
   height: 20%;
   width: 15%;
   padding: 1rem 2rem;
-  border: .15rem solid black;
+  border: 0.15rem solid black;
   border-radius: 10rem;
 }
 
 .login-btn:hover {
   background-color: #ecaaaa;
   border: 0.15rem solid #ecaaaa;
-  -webkit-transition: .25s;
-  transition: .25s;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
   cursor: pointer;
   color: #ffffff;
 }
@@ -131,7 +132,7 @@ a {
 }
 
 .intro-text {
-  min-height: 90%;
+  height: 90%;
   width: 55%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -178,8 +179,8 @@ a {
 
 .start-btn:hover {
   background-color: black;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .intro-bg {
@@ -253,10 +254,10 @@ a {
 }
 
 .feature-bg-inner {
-  min-width: 50%;
+  min-width: 90%;
   width: auto;
   height: 100%;
-  background-image: url("../../media/d5cedd547c98034c05a5ee839dd5dc0a (1).jpg");
+  background-image: url("../../media/features.gif");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -276,7 +277,7 @@ a {
           align-items: center;
   padding: 0;
   margin: 0;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
 }
 
 .feature-card:hover {
@@ -295,8 +296,8 @@ a {
   font-size: 2.5rem;
   background-color: #eeb6b6;
   color: #1b1b1b;
-  border-radius: .8rem 0 1rem;
-  padding: .5rem;
+  border-radius: 0.8rem 0 1rem;
+  padding: 0.5rem;
 }
 
 .card-text {
@@ -306,12 +307,12 @@ a {
 
 .card-text h2 {
   font-weight: 400;
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
 }
 
 .card-text p {
   color: #504f4f;
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   line-height: 1.8rem;
 }
 
@@ -382,7 +383,7 @@ a {
 }
 
 .useCases-card {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -421,7 +422,7 @@ a {
 
 .useCases-text p {
   text-align: left;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .useCases-card-heading {
@@ -512,38 +513,38 @@ a {
 
 .pricing-line {
   background-color: #1b1b1b;
-  height: .1rem;
+  height: 0.1rem;
   width: 30rem;
   margin: 1rem 0;
 }
 
 .pricing-tab {
-  background-color: #FEFAF3;
+  background-color: #fefaf3;
   height: 90%;
   width: 25vw;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .pricing-tab-focus {
   -webkit-box-shadow: 1.5px 3.5px 3.4px rgba(0, 0, 0, 0.017), 3.7px 8.4px 8.1px rgba(0, 0, 0, 0.024), 7px 15.8px 15.3px rgba(0, 0, 0, 0.03), 12.5px 28.1px 27.3px rgba(0, 0, 0, 0.036), 23.4px 52.6px 51px rgba(0, 0, 0, 0.043), 56px 126px 122px rgba(0, 0, 0, 0.06);
           box-shadow: 1.5px 3.5px 3.4px rgba(0, 0, 0, 0.017), 3.7px 8.4px 8.1px rgba(0, 0, 0, 0.024), 7px 15.8px 15.3px rgba(0, 0, 0, 0.03), 12.5px 28.1px 27.3px rgba(0, 0, 0, 0.036), 23.4px 52.6px 51px rgba(0, 0, 0, 0.043), 56px 126px 122px rgba(0, 0, 0, 0.06);
-  background-color: #FEFAF3;
+  background-color: #fefaf3;
   border: none;
 }
 
 .pricing-tab:hover {
-  background-color: #FEFAF3;
+  background-color: #fefaf3;
   -webkit-box-shadow: 1.5px 3.5px 3.4px rgba(0, 0, 0, 0.017), 3.7px 8.4px 8.1px rgba(0, 0, 0, 0.024), 7px 15.8px 15.3px rgba(0, 0, 0, 0.03), 12.5px 28.1px 27.3px rgba(0, 0, 0, 0.036), 23.4px 52.6px 51px rgba(0, 0, 0, 0.043), 56px 126px 122px rgba(0, 0, 0, 0.06);
           box-shadow: 1.5px 3.5px 3.4px rgba(0, 0, 0, 0.017), 3.7px 8.4px 8.1px rgba(0, 0, 0, 0.024), 7px 15.8px 15.3px rgba(0, 0, 0, 0.03), 12.5px 28.1px 27.3px rgba(0, 0, 0, 0.036), 23.4px 52.6px 51px rgba(0, 0, 0, 0.043), 56px 126px 122px rgba(0, 0, 0, 0.06);
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .pricing-tab-pop {
   margin: 0 auto;
   position: absolute;
-  background-color: #FEFAF3;
-  color: #DB962F;
+  background-color: #fefaf3;
+  color: #db962f;
   border-radius: 5rem;
   padding: 1rem 10.5rem;
   font-size: 1.2rem;
@@ -603,8 +604,8 @@ a {
 
 .price-btn a:hover {
   background-color: #1b1b1b;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .price-wrapper {
@@ -651,7 +652,7 @@ a {
   padding: 0;
   margin: 0;
   font-size: 1rem;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
   color: #504f4f;
 }
 
@@ -680,11 +681,11 @@ a {
 }
 
 .pricing-text li {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 1.3rem;
   list-style-image: url("../../media/icons8-double-tick-24.png");
   background-position: 0 0;
-  background-size: .3rem .3rem;
+  background-size: 0.3rem 0.3rem;
   background-repeat: no-repeat;
 }
 
@@ -737,7 +738,7 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  font-family: 'Oooh Baby', cursive;
+  font-family: "Oooh Baby", cursive;
 }
 
 .web-text {
@@ -753,7 +754,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Oooh Baby', cursive;
+  font-family: "Oooh Baby", cursive;
 }
 
 .footer-section-links {
@@ -780,7 +781,7 @@ footer {
 
 .pricing-line {
   background-color: #1b1b1b;
-  height: .1rem;
+  height: 0.1rem;
   width: 50%;
   margin: 1rem 0;
 }
@@ -811,7 +812,7 @@ footer {
 
 /* Modal Content */
 .modal-content {
-  background-color: #fff5f5;
+  background-color: white;
   margin: auto;
   padding: 2rem;
   border: 1px solid #888;
@@ -845,7 +846,179 @@ footer {
 }
 
 .login-close {
+  height: 5%;
+  width: 100%;
+  padding-bottom: 10rem;
+}
+
+.close {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.close:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.login-graphic-wrapper {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-graphic {
   height: 90%;
-  width: 100;
+  width: 100%;
+  background-image: url("../../media/login_form.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.login-section-wrapper {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.login-logo-main {
+  height: 20%;
+  width: 20%;
+  background-image: url("../../media/logo.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Oooh Baby", cursive;
+}
+
+.login-text-wrapper {
+  height: 15%;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.login-text-wrapper h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+.login-text-wrapper h4 {
+  font-weight: 400;
+  color: #504f4f;
+}
+
+.login-form {
+  padding-bottom: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 40%;
+  width: 90%;
+}
+
+.login-item {
+  height: 5vh;
+  width: 55%;
+  margin-bottom: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-content: center;
+  border: 0.15rem solid #a1a1a1;
+  border-radius: .5rem;
+}
+
+.login-logo {
+  height: 100%;
+  width: 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-content: center;
+}
+
+.login-logo img {
+  height: 70%;
+  width: 50%;
+}
+
+.login-item-text {
+  height: 100%;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 /*# sourceMappingURL=index.css.map */
