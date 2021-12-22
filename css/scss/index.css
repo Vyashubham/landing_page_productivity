@@ -200,8 +200,9 @@ a {
 .bg-inner {
   height: 80%;
   width: 100%;
-  margin-bottom: 3rem;
   background-image: url("../../media/5e2736c1fdf8684a69e11a11c0da2f9b.gif");
+  background-repeat: no-repeat;
+  background-position: center;
   -webkit-transform: rotate(270deg);
           transform: rotate(270deg);
 }
