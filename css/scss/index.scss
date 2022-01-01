@@ -487,19 +487,30 @@ a {
 
   margin-bottom: 10rem;
 }
+
 .pricing-section-title {
-  height: 10%;
+  height: 20%;
   width: 100%;
 
+  
   @include flex-center;
+  flex-direction: column;
 
   // background-color: yellow;
 
   font-size: 2.5rem;
+
+  h1{
+    @include blank-slate;
+  }
+
+  p{
+    font-family: "Oooh Baby", cursive;
+  }
 }
 
 .pricing-section-wrapper {
-  height: 80%;
+  height: 70%;
   width: 100%;
 
   // background-color: red;
@@ -1223,10 +1234,10 @@ footer {
   color: $primary-text-color !important;
 }
 
-input[type="radio"] {
-  background-color: purple;
+// input[type="radio"] {
+//   background-color: purple;
 
-}
+// }
 
 .message-area{
   width: 93%;
