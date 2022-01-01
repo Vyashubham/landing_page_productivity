@@ -158,7 +158,8 @@ a {
   height: 100vh;
   width: 100%;
 
-  display: flex;
+  @include flex-center;
+  
   // background-color: yellow;
 }
 
@@ -1586,36 +1587,74 @@ footer {
 @media only screen and (max-width: 600px) {
 
   body {
-    background-color: lightblue;
+    // background-color: lightblue;
     width: 100vw;
 
   }
 
   .nav-bar{
-    background-color: yellow;
+    // background-color: yellow;
   }
 
-  .logo-section{
-    // // width: ;
-    // background-color: purple;
-  }
 
   .nav-item{
     display: none;
   }
 
+  .logo-section{
+    @include blank-slate;
+    width: auto;
+    // background-color: purple;
+  }
+
   .intro-section{
-    padding-top: 5rem;
-      flex-direction: column-reverse;
+    // background-color: yellowgreen;
+
+    padding-top: 1rem;
+    flex-direction: column-reverse;
 
   }
+
+  .intro-bg {
+    height: 40% !important;
+    width: 100%;
+  
+    @include flex-center;
+
+    overflow: hidden;
+  
+    // background-color: orange;
+    
+  }
+  
+  .bg-inner{
+    // height: 80%;
+    // width: 100%;
+
+    // background-color: orange;
+
+    background-size: contain;
+  }
+
 
   .intro-text{
     width: 100%;
+    @include blank-slate;
+    align-items: start;
+    justify-content: flex-start;
+    padding-left: 3rem;
+
+    // background-color: oldlace;
     h1{
-      font-size: 2rem;
+
+      font-size: 3rem;
+
     }
   }
+
+
+
+  
 
   .intro-bg{
     width: 100%;
