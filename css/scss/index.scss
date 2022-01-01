@@ -226,8 +226,88 @@ a {
   transform: rotate(270deg);
 
 //   background-color: brown;
+
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.trusted-section{
+  height: 50vh;
+  width: 100%;
+
+  @include flex-center;
+
+  // background-color: papayawhip;
+
+  // border-top: .5rem solid gray;
+  // border-bottom: .5rem solid gray;
 }
 
+.trusted-text-wrapper{
+  height: 100%;
+  width: 40%;
+
+  @include flex-center;
+  flex-direction: column;
+  // font-family: "Oooh Baby", cursive;
+  font-size: 2.5rem;
+  letter-spacing: .1rem;
+
+  // background-color: peachpuff;
+
+  // h2{
+  //   // background-color: palegoldenrod;
+  //   // @include blank-slate;
+
+  //   // border-bottom: .5rem solid rgb(255, 199, 14);
+  // }
+
+}
+
+.trusted-graphic{
+  height: 50%;
+  width: 60%;
+
+  // background-color: floralwhite;
+
+  background-image: url("https://cdn.dribbble.com/users/371697/screenshots/3797083/media/be94b9d9243359873391c54017ce42b6.jpg?compress=1&resize=800x600");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.trusted-text{
+  height: 50%;
+  width: 100%;
+
+  @include blank-slate;
+
+  // background-color: lavender;
+
+  h2{
+    @include blank-slate;
+    text-align: center;
+  }
+}
+
+.trusted-logos-wrapper{
+  height: 100%;
+  width: 50%;
+
+  @include flex-center;
+  // justify-content: space-evenly;
+
+  // background-color: palevioletred;
+}
+
+.trusted-logo{
+  height: 100%;
+  width: 20%;
+
+  @include flex-center;
+
+  // background-color: indianred;
+}
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -809,6 +889,7 @@ footer {
   height: 0.1rem;
   width: 50%;
   margin: 1rem 0;
+  margin: 0 auto;
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
